@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/style.css">
+</head>
+<body>
+<div class="main-container">
+    <!-- <sidebar> -->
+
+        <div class="sidebar" style="padding: 40px; text-align: center;">
+
+            <!-- profil -->
+             <div class="profil">
+                <img src="../portfolio/WhatsApp Image 2026-03-29 at 9.37.14 PM.jpeg" 
+                    style="height: 80px;width: 100px; border-radius: 90%; border: 3px solid #c02a2ac1;" alt="Profile Picture" >
+                <h2 class="name" style="font-size: 25px; font-weight: 700; margin-top: 0px; color:rgb(3, 105, 44)">Rudra Deepak</h2>
+                <p class="title" 
+                style="background-color: rgb(114, 104, 104);color: rgb(153, 155, 6);
+                                        padding: 5px 15px;
+                                        border: 1px solid #30e108c1;
+                                        font-size: 0.9rem;
+                                        border-radius: 12px;
+                                        display: inline-block;">
+                Web Developer</p>
+            </div>
+                <!-- contact -->
+             <div class="contact" style="margin-top: 20px;border-top: 1px solid #040404;">
+                     <div>
+                <h3 class="quec">Email:</h3>
+                <a  class="ans" href="mailto:Rudra763.org.in@gmail.com" >Rudra763.org.in@gmail.com</a>
+                <h3 class="quec">Phone:</h3>
+                <a  class="ans" href="tel:+1234567890">+91 12345 67890</a>   
+                <h3 class="quec">    Address:</h3>
+                <p class="ans">Knowledge park II, Greater Noida, NCR, Uttar Pradesh, India</p>
+                </div>
+             </div>
+             <!-- social mediaa -->
+             <div  style="margin-top: 20px;border-top: 1px solid #040404;">
+               <div class="social"> <a href="https://www.instagram.com/yi.rudra" class="social"><img src="https://simpleicons.org/icons/instagram.svg"></a>
+                <a href="https://x.com/yi_rudra" class="social"><img src="https://simpleicons.org/icons/x.svg"></a>
+                <a href="https://www.snapchat.com/web/d9f21b4c-efeb-537d-82fa-bc8a0ca16384" class="social"><img src="https://simpleicons.org/icons/snapchat.svg"></a>
+                <a href="https://github.com/rudra-deepak" class="social"><img src="https://simpleicons.org/icons/github.svg"></a>
+                <a href="https://linktr.ee/yi.rudra" class="social"><img src="https://simpleicons.org/icons/linktree.svg"></a>
+                <a href="https://t.me/yi_rudra" class="social"><img src="https://simpleicons.org/icons/telegram.svg"></a>
+                </div>
+             </div>
+
+        </div>
+
+
+
+    <!-- <main-content> -->
+        <div class="main-content"></div >
+
+
+</body>
+</html>
