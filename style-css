@@ -30,7 +30,7 @@ body{
 }  
 
 .main-content{
-    height: 90vh;
+    /* height: 90vh; */
     background-color: #2a2a2a;
     border-radius: 20px;
 }
@@ -65,3 +65,28 @@ body{
               .social:hover {
                       filter: grayscale(0) invert(0);
     }
+
+
+#navigation{
+    padding: 30px 40px;
+    
+}
+nav{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+
+
+}
+
+nav a{
+    color:  rgb(3, 105, 44);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.active, nav a:hover{
+    color: rgb(114, 104, 104);
+}
