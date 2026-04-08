@@ -14,8 +14,8 @@
 
             <!-- profil -->
              <div class="profil">
-                <img src="../portfolio/WhatsApp Image 2026-03-29 at 9.37.14 PM.jpeg" 
-                    style="height: 80px;width: 100px; border-radius: 90%; border: 3px solid #c02a2ac1;" alt="Profile Picture" >
+                <img src="../portfolio/WhatsApp Image 2026-04-08 at 9.46.24 AM.jpeg" 
+                    style="height: 150px;width: 150px; border-radius: 90%; border: 3px solid #c02a2ac1;" alt="Profile Picture" >
                 <h2 class="name" style="font-size: 25px; font-weight: 700; margin-top: 0px; color:rgb(3, 105, 44)">Rudra Deepak</h2>
                 <p class="title" 
                 style="background-color: rgb(114, 104, 104);color: rgb(153, 155, 6);
@@ -24,10 +24,6 @@
                                         font-size: 0.9rem;
                                         border-radius: 12px;
                                         display: inline-block;">
-
-
-
-
                 Web Developer</p>
             </div>
                 <!-- contact -->
@@ -36,14 +32,15 @@
                 <h3 class="quec">Email:</h3>
                 <a  class="ans" href="mailto:Rudra763.org.in@gmail.com" >Rudra763.org.in@gmail.com</a>
                 <h3 class="quec">Phone:</h3>
-                <a  class="ans" href="tel:+1234567890">+91 12345 67890</a>   
+                <a  class="ans" href="tel:+91 8002680319">+91 8002680319</a>   
                 <h3 class="quec">    Address:</h3>
                 <p class="ans">Knowledge park II, Greater Noida, NCR, Uttar Pradesh, India</p>
                 </div>
              </div>
              <!-- social mediaa -->
              <div  style="margin-top: 20px;border-top: 1px solid #040404;">
-               <div class="social"> <a href="https://www.instagram.com/yi.rudra" class="social"><img src="https://simpleicons.org/icons/instagram.svg"></a>
+             <div class="social"> <a href="https://www.instagram.com/yi.rudra" class="social">
+            <img src="https://simpleicons.org/icons/instagram.svg"></a>
                 <a href="https://x.com/yi_rudra" class="social"><img src="https://simpleicons.org/icons/x.svg"></a>
                 <a href="https://www.snapchat.com/web/d9f21b4c-efeb-537d-82fa-bc8a0ca16384" class="social"><img src="https://simpleicons.org/icons/snapchat.svg"></a>
                 <a href="https://github.com/rudra-deepak" class="social"><img src="https://simpleicons.org/icons/github.svg"></a>
@@ -53,11 +50,56 @@
              </div>
 
         </div>
-
+    
 
 
     <!-- <main-content> -->
-        <div class="main-content"></div >
+        <div class="main-content">
+        
+            <!-- navigation -->
+        <div id="navigation">
+            <nav>
+                <a href="#about" style="" class="active">About</a>
+                <a href="#skills" style="">Skills</a>
+                <a href="#education" style="">Education</a>
+                <a href="#portfolio" style="">Portfolio</a> 
+
+                </nav>
+               <br> <hr style="border: 0.1px solid #040404;">
+        </div>
+
+
+             <!-- about -->
+             <div id="about"></div>
+            <h2 style="color: rgb(3, 105, 44);margin: 0px 20px;">About Me</h2>
+            <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0);">
+                <div style="font-size: 15px; line-height: 1.6; color: #fafaffcd; margin: 10px 20px;">
+                    <p>
+I am an enthusiastic and detail-oriented aspiring web developer with a strong foundation in programming 
+languages including C++, Java, and Python, along with core web technologies such as HTML and CSS. I am deeply
+interested in building modern, responsive, and user-centric web applications that combine functionality with clean and intuitive design.
+As a continuous learner, I am committed to enhancing my technical skills and staying up to date with the latest advancements in web development.
+I actively explore new tools, frameworks, and best practices to improve both my development efficiency and the overall quality of my projects.
+My approach focuses on writing clean, maintainable code and creating seamless user experiences across different devices and platforms.
+I have hands-on experience in developing structured and visually appealing web pages, and I am gradually expanding my expertise toward full-stack development. 
+I enjoy solving problems, learning new concepts, and applying my knowledge to real-world projects.<br><br>
+Additionally, I am a member of the AWS community (2026), which allows me to gain exposure to cloud technologies and modern deployment practices. 
+This involvement helps me understand scalable solutions and strengthens my ability to build future-ready applications.
+I am currently seeking opportunities to apply my skills, grow as a developer, and contribute to meaningful and impactful projects. 
+                </p>
+                </div>
+
+             <!-- skills -->
+             <div id="skills"></div>
+                <h2 style="color: rgb(3, 105, 44);margin: 0px 20px;">MySkills</h2>
+                <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0); margin-bottom: 30px;"> <br>
+                
+             <!-- education -->
+             <div id="education"></div>
+
+             <!-- portfolio -->
+            <div id="portfolio"></div>
+        </div >
 
 
 </body>
