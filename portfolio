@@ -39,8 +39,8 @@
              </div>
              <!-- social mediaa -->
              <div  style="margin-top: 20px;border-top: 1px solid #040404;">
-             <div class="social"> <a href="https://www.instagram.com/yi.rudra" class="social">
-            <img src="https://simpleicons.org/icons/instagram.svg"></a>
+             <div class="social">
+                <a href="https://www.instagram.com/yi.rudra" class="social"><img src="https://simpleicons.org/icons/instagram.svg"></a>
                 <a href="https://x.com/yi_rudra" class="social"><img src="https://simpleicons.org/icons/x.svg"></a>
                 <a href="https://www.snapchat.com/web/d9f21b4c-efeb-537d-82fa-bc8a0ca16384" class="social"><img src="https://simpleicons.org/icons/snapchat.svg"></a>
                 <a href="https://github.com/rudra-deepak" class="social"><img src="https://simpleicons.org/icons/github.svg"></a>
@@ -83,32 +83,84 @@ I actively explore new tools, frameworks, and best practices to improve both my 
 My approach focuses on writing clean, maintainable code and creating seamless user experiences across different devices and platforms.
 I have hands-on experience in developing structured and visually appealing web pages, and I am gradually expanding my expertise toward full-stack development. 
 I enjoy solving problems, learning new concepts, and applying my knowledge to real-world projects.<br><br>
-Additionally, I am a member of the AWS community (2026), which allows me to gain exposure to cloud technologies and modern deployment practices. 
+Additionally, <br>📍Volunteer at
+AMAZON AWS summit 2026 Banglore @amazonwebservices <br>
+📍@oracle certified <br> which allows me to gain exposure to cloud technologies and modern deployment practices. 
 This involvement helps me understand scalable solutions and strengthens my ability to build future-ready applications.
 I am currently seeking opportunities to apply my skills, grow as a developer, and contribute to meaningful and impactful projects. 
                 </p>
-                </div>
+                </div> <br><br>
 
              <!-- skills -->
              <div id="skills"></div>
-                <h2 style="color: rgb(3, 105, 44);margin: 0px 20px;">MySkills</h2>
+                <h2 style="color: rgb(3, 105, 44);margin: 0px 20px;">My Skills</h2>
                 <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0); margin-bottom: 30px;"> <br>
-                
-             <!-- education -->
-             <div id="education"></div>
+ <div class="skills">
+  <div class="skill">
+    <img src="https://simpleicons.org/icons/html5.svg">
+    <p>HTML</p>
+  </div>
 
+  <div class="skill">
+    <img src="https://simpleicons.org/icons/css.svg">
+    <p>CSS</p>
+  </div>
+
+  <div class="skill">
+    <img src="https://simpleicons.org/icons/javascript.svg">
+    <p>JavaScript</p>
+  </div>
+
+  <div class="skill">
+    <img src="https://simpleicons.org/icons/cplusplus.svg">
+    <p>C++</p>
+  </div>
+
+  <div class="skill">
+    <img src="https://simpleicons.org/icons/python.svg">
+    <p>Python</p>
+  </div>
+</div> <br><br>
+        <!-- education -->
+             <div id="education"></div>                  <!--for navigation top-->
+                <h2 style="color: rgb(3, 105, 44);margin: 0px 20px; position: relative;">Education</h2>
+                <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0); margin-bottom: 30px;"> <br>
+                <div class="edu-info">
+    <div class="timeline-line"></div>
+
+                       <div class="edu-item">
+                        <div class="circle"></div> 
+                      <p class="sub-ed" > Schooling</p>    
+                      <h3 class="institute">Holy Mary International School</h3>
+                     <p>I have done my schooling from Holy Mary International School, Darbhanga, Bihar, India. I have completed my 10th grade in 2024 with an overall percentage of 80%.</p>
+                <br> </div>
+
+
+
+                       <div class="edu-item">
+                    <div class="circle"></div>
+                        <p class="sub-ed" > Intermediate</p>
+                        <h3 class="institute">Angle High School</h3>
+                        <p>I have done my schooling from Angle High School, Darbhanga, Bihar, India. </p> 
+                    <br></div>
+
+
+
+                    
+                   <div class="edu-item">
+                    <div class="circle"></div> 
+                        <p class="sub-ed" > College</p>  
+                        <h3 class="institute">xyz</h3>
+                  
+                        <p>I am currently pursuing my Bachelor's degree in Computer Science from XYZ. I am in my first year and have a keen interest in web development and programming.</p>
+                    </div>
+                    
+         
+              
+                 </div >
              <!-- portfolio -->
             <div id="portfolio"></div>
-        </div >
-
-
-
-
-
-
-
-
-
+       
 
 
 </body>
