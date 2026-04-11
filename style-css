@@ -37,12 +37,6 @@ body{
 
 
 
-
-
-
-
-
-
 .quec{
     margin-top: 10px;
     color: rgb(3, 105, 44); 
@@ -95,4 +89,101 @@ nav a{
 
 .active, nav a:hover{
     color: rgb(114, 104, 104);
+}
+
+
+/* skills */
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 20px;
+  text-align: center;
+  filter: grayscale(0) invert(5);
+   transition: filter 2s ease;
+  
+}
+   .skill:hover {
+                  filter: grayscale(5) invert(3);        
+    }
+
+    .skill img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.skill p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  transition: 2s;
+}
+
+.skill:hover p {
+  color: yellow;
+}
+
+
+/* education */
+
+
+
+div.education {
+    font-size: 15px;
+    line-height: 1.6;
+     color: #fafaffcd; 
+     margin: 0px 20px;
+  
+}
+
+
+
+h3 {
+    color: rgb(134, 138, 2);
+
+}
+
+.sub-ed {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 255, 102);
+}
+
+ .edu-info {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    position: relative;
+}
+
+
+
+.edu-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 40px;
+}
+
+
+
+ .circle {
+    position: absolute;
+    left: -5px;   /* PERFECT alignment */
+    top: 6px;     /* small adjust only */
+    width: 12px;
+    height: 12px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+    background-color: #2a2a2a;
+} 
+
+.timeline-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #ccc;
 }
