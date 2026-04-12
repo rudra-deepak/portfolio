@@ -160,8 +160,43 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                  </div >
              <!-- portfolio -->
             <div id="portfolio"></div>
-       
+             <h2 style="color: rgb(3, 105, 44);margin: 0px 20px; position: relative;">Portfolio</h2>
+                <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0); margin-bottom: 30px;"> 
+       <div class="project-cont">
+                <div class="project">
+            <img src="../portfolio/images.jpg" >
+            <div class="card">
+           <h3>Project Title 1</h3>
+            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span>css</span>
+        </div> </div>
+        
+         <div class="project">
+              <img src="../portfolio/project.jpg" >
+            <div class="card">
+           <h3>Project Title 1</h3>
+            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span>css</span>
+         </div></div>
+         <br>
+
+         <div class="project">
+              <img src="../portfolio/pexels-luis-gomes-166706-546819-scaled.jpg" >
+            <div class="card">
+           <h3>Project Title 1</h3>
+            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span>css</span>
+         </div></div>
+
+         <div class="project">
+              <img src="../portfolio/shutterstock_535124956-scaled.jpg" >
+            <div class="card">
+           <h3>Project Title 1</h3>
+            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span>css</span>
+         </div></div>
 
 
+</div>
 </body>
 </html>
