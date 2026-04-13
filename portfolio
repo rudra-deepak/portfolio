@@ -7,24 +7,16 @@
     <link rel="stylesheet" href="../portfolio/style.css">
 </head>
 <body>
-<div class="main-container">
-    <!-- <sidebar> -->
+    <div class="main-container">
+<!-- <sidebar> -->
 
         <div class="sidebar" style="padding: 40px; text-align: center;">
 
             <!-- profil -->
              <div class="profil">
-                <img src="../portfolio/WhatsApp Image 2026-04-08 at 9.46.24 AM.jpeg" 
-                    style="height: 150px;width: 150px; border-radius: 90%; border: 3px solid #c02a2ac1;" alt="Profile Picture" >
-                <h2 class="name" style="font-size: 25px; font-weight: 700; margin-top: 0px; color:rgb(3, 105, 44)">Rudra Deepak</h2>
-                <p class="title" 
-                style="background-color: rgb(114, 104, 104);color: rgb(153, 155, 6);
-                                        padding: 5px 15px;
-                                        border: 1px solid #30e108c1;
-                                        font-size: 0.9rem;
-                                        border-radius: 12px;
-                                        display: inline-block;">
-                Web Developer</p>
+                <img src="../portfolio/WhatsApp Image 2026-04-08 at 9.46.24 AM.jpeg" class="profile-img" > 
+                <h2 class="name" >Rudra Deepak</h2>
+                <p class="title" > Web Developer</p>
             </div>
                 <!-- contact -->
              <div class="contact" style="margin-top: 20px;border-top: 1px solid #040404;">
@@ -37,6 +29,9 @@
                 <p class="ans">Knowledge park II, Greater Noida, NCR, Uttar Pradesh, India</p>
                 </div>
              </div>
+
+
+
              <!-- social mediaa -->
              <div  style="margin-top: 20px;border-top: 1px solid #040404;">
              <div class="social">
@@ -53,16 +48,16 @@
     
 
 
-    <!-- <main-content> -->
+<!-- <main-content> -->
         <div class="main-content">
         
             <!-- navigation -->
         <div id="navigation">
             <nav>
-                <a href="#about" style="" class="active">About</a>
-                <a href="#skills" style="">Skills</a>
-                <a href="#education" style="">Education</a>
-                <a href="#portfolio" style="">Portfolio</a> 
+                <a href="#about"  class="active">About</a>
+                <a href="#skills"  >Skills</a>
+                <a href="#education"   >Education</a>
+                <a href="#portfolio" >Portfolio</a> 
 
                 </nav>
                <br> <hr style="border: 0.1px solid #040404;">
@@ -73,7 +68,7 @@
              <div id="about"></div>
             <h2 style="color: rgb(3, 105, 44);margin: 0px 20px;">About Me</h2>
             <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0);">
-                <div style="font-size: 15px; line-height: 1.6; color: #fafaffcd; margin: 10px 20px;">
+                <div style="font-size: 15px; line-height: 1.6; color: #ffffffcd; margin: 10px 20px;">
                     <p>
 I am an enthusiastic and detail-oriented aspiring web developer with a strong foundation in programming 
 languages including C++, Java, and Python, along with core web technologies such as HTML and CSS. I am deeply
@@ -132,7 +127,8 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                         <div class="circle"></div> 
                       <p class="sub-ed" > Schooling</p>    
                       <h3 class="institute">Holy Mary International School</h3>
-                     <p>I have done my schooling from Holy Mary International School, Darbhanga, Bihar, India. I have completed my 10th grade in 2024 with an overall percentage of 80%.</p>
+                     <p>I have done my schooling from Holy Mary International School, Darbhanga, Bihar, India. I have completed my 10th grade in 2024 with an overall   
+                         percentage of 80%.</p>
                 <br> </div>
 
 
@@ -152,7 +148,8 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                         <p class="sub-ed" > College</p>  
                         <h3 class="institute">xyz</h3>
                   
-                        <p>I am currently pursuing my Bachelor's degree in Computer Science from XYZ. I am in my first year and have a keen interest in web development and programming.</p>
+                        <p>I am currently pursuing my Bachelor's degree in Computer Science from XYZ. I am in my first year and have a keen interest in web development
+                                 and programming.</p>
                     </div>
                     
          
@@ -162,41 +159,65 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
             <div id="portfolio"></div>
              <h2 style="color: rgb(3, 105, 44);margin: 0px 20px; position: relative;">Portfolio</h2>
                 <hr style="border: 0.1px solid #040404;  width: 150px;border: 3px solid rgb(255, 0, 0); margin-bottom: 30px;"> 
+
+
        <div class="project-cont">
+
+
                 <div class="project">
             <img src="../portfolio/images.jpg" >
             <div class="card">
-           <h3>Project Title 1</h3>
-            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
-            <span class="tech">HTML</span> <span>css</span>
+           <h3 style="color: rgb(0, 255, 102);text-align: center; ">University Registration & Login System</h3> 
+            <p style="color: #ffffff; margin-top: 10px; text-align: center  ;">A University Registration and Login System that allows students to securely register and access their accounts through a simple and
+                                             user-friendly interface.</p>
+            <span class="tech">HTML</span> <span class="tech">CSS</span>
         </div> </div>
+
         
          <div class="project">
               <img src="../portfolio/project.jpg" >
             <div class="card">
-           <h3>Project Title 1</h3>
-            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
-            <span class="tech">HTML</span> <span>css</span>
+           <h3 style="color: rgb(0, 255, 102);text-align: center;">Personal Portfolio Website</h3>
+            <p style="color: #ffffff; margin-top: 10px; text-align: center;">A personal portfolio website created using HTML and CSS to demonstrate my frontend development skills and showcase my projects
+                                                             in an organized and responsive layout.</p>
+            <span class="tech">HTML</span> <span class="tech">CSS</span>
          </div></div>
-         <br>
+      
+
 
          <div class="project">
               <img src="../portfolio/pexels-luis-gomes-166706-546819-scaled.jpg" >
             <div class="card">
-           <h3>Project Title 1</h3>
-            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
-            <span class="tech">HTML</span> <span>css</span>
+           <h3 style="color: rgb(0, 255, 102);text-align: center;">Project Title 1</h3>
+            <p style="color: #ffffff; margin-top: 10px; text-align: center;">A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span class="tech">CSS</span>
          </div></div>
+
+
 
          <div class="project">
               <img src="../portfolio/shutterstock_535124956-scaled.jpg" >
             <div class="card">
-           <h3>Project Title 1</h3>
-            <p>A brief description of the project goes here. It highlights the key features and technologies used.</p>
-            <span class="tech">HTML</span> <span>css</span>
-         </div></div>
+           <h3 style="color: rgb(0, 255, 102);text-align: center;">Project Title 1</h3>
+            <p style="color: #ffffff; margin-top: 10px; text-align: center;">A brief description of the project goes here. It highlights the key features and technologies used.</p>
+            <span class="tech">HTML</span> <span class="tech">CSS</span>
+         </div></div><br><br>
 
 
+         <!-- ending section -->
+<div class="ending">
+    <div class="end-line"></div>
+    <div class="end-circle"></div>
+
+    <h2>Thank You!</h2>
+    <p>
+        Thank you for visiting my portfolio. I truly appreciate your time and interest in my work.  
+        If you would like to collaborate, feel free to reach out.
+    </p>
+    <p class="sign">— Rudra Deepak</p>
 </div>
+
+
+</div> </div></div>
 </body>
 </html>
