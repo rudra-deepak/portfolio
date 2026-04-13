@@ -5,6 +5,9 @@
 
 
     }
+    html {
+    scroll-behavior: smooth;
+}
 
     body{
         background-color: #1e1e1e;
@@ -280,7 +283,7 @@ nav a:hover::after {
     border: 1px solid #1e1e1e;
     overflow: hidden;
     transition: transform 0.3s ease; 
-
+  
     } 
 
     .project:hover {
@@ -321,7 +324,7 @@ nav a:hover::after {
 }
 
 .ending:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 /* vertical line */
@@ -360,11 +363,12 @@ nav a:hover::after {
 }
 
 .ending p {
-    color: #ccc;
+    color: #ffffff;
 }
 
 .sign {
     margin-top: 15px;
     color: rgb(3, 105, 44);
     font-weight: bold;
+
 }
