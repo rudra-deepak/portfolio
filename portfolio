@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="../portfolio/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="main-container">
@@ -14,7 +14,7 @@
 
             <!-- profil -->
              <div class="profil">
-                <img src="../portfolio/WhatsApp Image 2026-04-08 at 9.46.24 AM.jpeg" class="profile-img" > 
+                <img src="WhatsApp Image 2026-04-08 at 9.46.24 AM.jpeg" class="profile-img" > 
                 <h2 class="name" >Rudra Deepak</h2>
                 <p class="title" > Web Developer</p>
             </div>
@@ -80,7 +80,9 @@ I have hands-on experience in developing structured and visually appealing web p
 I enjoy solving problems, learning new concepts, and applying my knowledge to real-world projects.<br><br>
 Additionally, <br>📍Volunteer at
 AMAZON AWS summit 2026 Banglore @amazonwebservices <br>
-📍@oracle certified <br> which allows me to gain exposure to cloud technologies and modern deployment practices. 
+📍@oracle certified <br>
+<!-- 📍IIT Roorkee AIML certified <br>  -->
+Which allows me to gain exposure to cloud technologies and modern deployment practices. 
 This involvement helps me understand scalable solutions and strengthens my ability to build future-ready applications.
 I am currently seeking opportunities to apply my skills, grow as a developer, and contribute to meaningful and impactful projects. 
                 </p>
@@ -165,7 +167,7 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
 
 
                 <div class="project">
-            <img src="../portfolio/images.jpg" >
+            <img src="images.jpg" >
             <div class="card">
            <h3 style="color: rgb(0, 255, 102);text-align: center; ">University Registration & Login System</h3> 
             <p style="color: #ffffff; margin-top: 10px; text-align: center  ;">A University Registration and Login System that allows students to securely register and access their accounts through a simple and
@@ -175,7 +177,7 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
 
         
          <div class="project">
-              <img src="../portfolio/project.jpg" >
+              <img src="project.jpg" >
             <div class="card">
            <h3 style="color: rgb(0, 255, 102);text-align: center;">Personal Portfolio Website</h3>
             <p style="color: #ffffff; margin-top: 10px; text-align: center;">A personal portfolio website created using HTML and CSS to demonstrate my frontend development skills and showcase my projects
@@ -186,7 +188,7 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
 
 
          <div class="project">
-              <img src="../portfolio/pexels-luis-gomes-166706-546819-scaled.jpg" >
+              <img src="pexels-luis-gomes-166706-546819-scaled.jpg" >
             <div class="card">
            <h3 style="color: rgb(0, 255, 102);text-align: center;">Project Title 1</h3>
             <p style="color: #ffffff; margin-top: 10px; text-align: center;">A brief description of the project goes here. It highlights the key features and technologies used.</p>
@@ -196,7 +198,7 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
 
 
          <div class="project">
-              <img src="../portfolio/shutterstock_535124956-scaled.jpg" >
+              <img src="shutterstock_535124956-scaled.jpg" >
             <div class="card">
            <h3 style="color: rgb(0, 255, 102);text-align: center;">Project Title 1</h3>
             <p style="color: #ffffff; margin-top: 10px; text-align: center;">A brief description of the project goes here. It highlights the key features and technologies used.</p>
