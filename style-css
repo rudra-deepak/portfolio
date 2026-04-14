@@ -14,6 +14,7 @@
         color: #a0a0a0;
         font-family: sans-serif;
         line-height: 1.6;
+        overflow-x: hidden;
     }
 
     .main-container{
@@ -371,4 +372,59 @@ nav a:hover::after {
     color: rgb(3, 105, 44);
     font-weight: bold;
 
+}
+
+
+
+
+
+/* ............................................................................................. */
+
+/* for mobile screens */
+/* 📱 MOBILE RESPONSIVE FIX */
+@media (max-width: 768px) {
+
+  /* main layout */
+  .main-container {
+    grid-template-columns: 1fr;   /* sidebar on top */
+    padding: 10px;
+  }
+
+  .sidebar {
+    height: auto;
+  }
+
+  /* navigation */
+  nav {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  /* skills */
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  /* education */
+  .edu-info {
+    margin-left: 20px;
+  }
+
+  /* portfolio FIX */
+  .project-cont {
+    grid-template-columns: 1fr;   /* 🔥 single column */
+    margin-left: 0;
+    margin-right: 0;
+    padding: 10px;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  /* text fix */
+  p {
+    word-wrap: break-word;
+  }
 }
