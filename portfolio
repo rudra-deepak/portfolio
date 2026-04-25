@@ -48,10 +48,6 @@
     
 
 
-
-
-
-
 <!-- <main-content> -->
         <div class="main-content">
         
@@ -85,7 +81,7 @@ I enjoy solving problems, learning new concepts, and applying my knowledge to re
 Additionally, <br>📍Volunteer at
 AMAZON AWS summit 2026 Banglore @amazonwebservices <br>
 📍@oracle certified <br>
-<!-- 📍IIT Roorkee AIML certified <br>  -->
+📍IIT Roorkee AIML <br>
 Which allows me to gain exposure to cloud technologies and modern deployment practices. 
 This involvement helps me understand scalable solutions and strengthens my ability to build future-ready applications.
 I am currently seeking opportunities to apply my skills, grow as a developer, and contribute to meaningful and impactful projects. 
@@ -133,8 +129,8 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                         <div class="circle"></div> 
                       <p class="sub-ed" > Schooling</p>    
                       <h3 class="institute">Holy Mary International School</h3>
-                     <p>I have done my schooling from Holy Mary International School, Darbhanga, Bihar, India. I have completed my 10th grade in 2024 with an overall   
-                         percentage of 80%.</p>
+                     <p>I have done my schooling from Holy Mary International School, Darbhanga, Bihar, India. I have completed my 10th grade in 2023 with an overall   
+                         percentage of 93%.</p>
                 <br> </div>
 
 
@@ -142,8 +138,8 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                        <div class="edu-item">
                     <div class="circle"></div>
                         <p class="sub-ed" > Intermediate</p>
-                        <h3 class="institute">Angle High School</h3>
-                        <p>I have done my schooling from Angle High School, Darbhanga, Bihar, India. </p> 
+                        <h3 class="institute">Lotus Valley International School</h3>
+                        <p>I have done my schooling from Lotus Valley International School ,  Greater Noida, India. </p> 
                     <br></div>
 
 
@@ -154,8 +150,8 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                         <p class="sub-ed" > College</p>  
                         <h3 class="institute">xyz</h3>
                   
-                        <p>I am currently pursuing my Bachelor's degree in Computer Science from XYZ. I am in my first year and have a keen interest in web development
-                                 and programming.</p>
+                        <p>I am currently pursuing my Bachelor's degree in Computer Science and AIML from XYZ. I am in my first year and have a keen interest in web development
+                                 programming and Artificial Intelligence in Machine Learning</p>
                     </div>
                     
          
@@ -179,7 +175,7 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
             <span class="tech">HTML</span> <span class="tech">CSS</span>
         </div> </div>
 
-        
+        <a href="https://portfolio-rudradeepak.netlify.app/" style="text-decoration: none;">
          <div class="project">
               <img src="project.jpg" >
             <div class="card">
@@ -188,17 +184,17 @@ I am currently seeking opportunities to apply my skills, grow as a developer, an
                                                              in an organized and responsive layout.</p>
             <span class="tech">HTML</span> <span class="tech">CSS</span>
          </div></div>
-      
+         </a>
 
-
-         <div class="project">
-              <img src="pexels-luis-gomes-166706-546819-scaled.jpg" >
+         <a href="https://rudraflix-project.netlify.app/" style="text-decoration: none;">
+         <div class="project" > 
+              <img src="netflixbg.jpg" >
             <div class="card">
-           <h3 style="color: rgb(0, 255, 102);text-align: center;">Project Title 1</h3>
-            <p style="color: #ffffff; margin-top: 10px; text-align: center;">A brief description of the project goes here. It highlights the key features and technologies used.</p>
+           <h3 style="color: rgb(0, 255, 102);text-align: center;">Netflix clone</h3>
+            <p style="color: #ffffff; margin-top: 10px; text-align: center;">A responsive Netflix-inspired UI clone built using HTML and CSS, showcasing modern layout design, animations, and clean user interface practices.</p>
             <span class="tech">HTML</span> <span class="tech">CSS</span>
          </div></div>
-
+        </a>
 
 
          <div class="project">
